@@ -1,0 +1,40 @@
+ERROR - 2024-04-06 16:31:22 --> mysqli_sql_exception: Table 'u124366273_mahakal_blogDb.posts' doesn't exist in /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/app/Models/PostModel.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/app/Controllers/HomeController.php(48): App\Models\PostModel->getSliderPosts()
+#6 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/CodeIgniter.php(941): App\Controllers\HomeController->index()
+#7 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/CodeIgniter.php(501): CodeIgniter\CodeIgniter->runController()
+#8 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/index.php(95): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-06 16:31:22 --> Call to a member function getResult() on bool
+in APPPATH/Models/PostModel.php on line 64.
+ 1 APPPATH/Controllers/HomeController.php(48): App\Models\PostModel->getSliderPosts()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\HomeController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(501): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(360): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(95): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-06 16:32:52 --> mysqli_sql_exception: Table 'u124366273_mahakal_blogDb.posts' doesn't exist in /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/app/Models/PostModel.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/app/Controllers/HomeController.php(48): App\Models\PostModel->getSliderPosts()
+#6 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/CodeIgniter.php(941): App\Controllers\HomeController->index()
+#7 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/CodeIgniter.php(501): CodeIgniter\CodeIgniter->runController()
+#8 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u124366273/domains/rizrv.in/public_html/mahakaladmin/blog/index.php(95): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-06 16:32:52 --> Call to a member function getResult() on bool
+in APPPATH/Models/PostModel.php on line 64.
+ 1 APPPATH/Controllers/HomeController.php(48): App\Models\PostModel->getSliderPosts()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\HomeController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(501): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(360): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(95): CodeIgniter\CodeIgniter->run()

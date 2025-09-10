@@ -1,0 +1,10 @@
+<?php
+
+use Illuminate\Support\Facades\DB;
+
+if (!function_exists('get_setting')) {
+    function get_setting($key, $default = null)
+    {
+        return DB::table('settings')->where('key', $key)->value('value') ?? $default;
+    }
+}

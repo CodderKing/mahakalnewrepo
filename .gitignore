@@ -1,0 +1,4 @@
+.env
+/storage
+# Ignore folder
+public/muhurat-json/muhurats.json
